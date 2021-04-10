@@ -1,7 +1,10 @@
 html {
   box-sizing: border-box;
-  font-family: 'georgia', serif;
+  font-family: Georgia, serif;
   line-height: 1.5;
+  background-color: #f5f2f0;
+  font-weight: normal;
+  padding-bottom: 1rem;
 }
 
 *, *::before, *::after {
@@ -12,32 +15,39 @@ body {
   margin: 0;
 }
 
+img {
+  width: 100%;
+}
+
 main {
-  margin: 1.5rem;
+  padding: 0 1rem;
 }
 
 h1 {
-  color:#623b0c;
+  color: #623b0c;
   font-family: "Denk One", sans-serif;
+  margin: 1rem 0 1.4rem;
 }
 
 h2 {
-  color:#623b0c;
+  color: #623b0c;
   font-family: "Denk One", sans-serif;
+  margin: 0 0 1.5rem;
 }
 
 p {
-
+  margin: 1.5rem 0;
+  text-align: left;
 }
 
 ol {
   list-style-type: none;
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 ol > li {
@@ -51,10 +61,11 @@ ol > li {
   justify-content: space-between;
 }
 
-.btn {
+a {
   border-radius: 8px;
   background-color: #623b0c;
-  color:#fff;
+  color: #fff;
   text-decoration: none;
   border: 2px;
+  padding: .5em .75em .6em;
 }
