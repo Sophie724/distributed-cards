@@ -41,7 +41,20 @@ gap: 1rem;
 }
 
 ol > li {
-  border: 2px solid #ede3db;
+  border: 2px solid #623b0c;
   padding: 1rem;
   border-radius: 8px;
+  background-color: #ede3db;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn {
+  border-radius: 8px;
+  background-color: #623b0c;
+  color:#fff;
+  text-decoration: none;
+  border: 2px;
 }
